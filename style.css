@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+.main {
+    background-image: url("images/Background\ img.jpg");
+    height: 43.75rem;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100%);
+}
+
+.main .box {
+     width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.345);
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+nav {
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+}
+
+nav img {
+    color: red;
+    height: 130px;
+    position: relative;
+    z-index: 10;
+    width: 155px;
+}
+
+nav>div .btn {
+    position: relative;
+}
+
+nav>div .btn-red-sm {
+    position: absolute;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+nav .topbutton {
+    display: flex;
+    column-gap: 10px;
+}
+
+nav>div .btn-grey {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    background-color: #38383871;
+    font-weight: bold;
+}
+
+nav>div {
+    padding-right: 75px;
+}
+
+nav>div .btn-red-sm {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+nav>div .btn-red-sm:hover {
+    background-color: rgb(210, 0, 0)
+}
+
+.hero {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    row-gap: 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 900px;
+    font-size: 3rem;
+    font-family: 'Martel Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.seperation {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    z-index: 20;
+    position: relative;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.266);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: rgb(228, 0, 0);
+    color: white;
+    border-radius: 4px;
+    padding: 13px 24px 10px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-red-sm {
+    background-color: rgb(228, 0, 0);
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    background-color: rgba(4, 0, 0, 0.7);
+    border-radius: 4px;
+    padding: 17px 180px 13px 14px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    padding: 70px 0 70px 0;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 10px;
+    width: 555px;
+    height: 228px;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    padding: 70px 0 70px 0;
+}
+
+section.second>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.second .secimg div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.third .secimg img {
+    width: 565px;
+    position: relative;
+    z-index: 10;
+}
+
+.third .secimg video {
+    position: absolute;
+    top: 38px;
+    left: 95px;
+    width: 365px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq .faqq {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.faqbox {
+    padding: 20px;
+    font-size: 24px;
+    transition: all 0.2s ease-out;
+    background-color: #2d2d2d;
+    margin: 0 0 0.7rem 0;
+    width: 84%;
+    height: 11%;
+}
+
+.faqbox:hover {
+    background-color: #424242;
+    color: white;
+}
+
+.faqbox span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+}
+
+footer {
+    color: white;
+    width: 84%;
+    margin: auto;
+    padding: 34px;
+    padding-top: 60px;
+}
+
+.footer {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(109, 109, 109);
+}
+
+footer>div {
+    color: rgb(190, 190, 190);
+}
+
+footer>div a {
+    color: rgb(190, 190, 190);
+}
+
+.footer a {
+    color: rgb(190, 190, 190);
+    font-size: 14px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 33px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .main {
+        height: auto;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    .hero> :nth-child(3) {
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 10px;
+    }
+
+    nav {
+        max-width: 90vw;
+        height: 85px;
+    }
+
+    .main nav img {
+        width: 100px;
+        height: 25px;
+    }
+
+    nav div .btn-grey {
+        padding-right: 50px;
+        width: 30px;
+    }
+
+    nav div .btn-red-sm {
+        width: 70px;
+    }
+
+    .hero-buttons {
+        padding-bottom: 30px;
+    }
+
+    .first .secimg img {
+        width: 400px;
+        position: relative;
+    }
+
+    .first .secimg video {
+        width: 300px;
+        top: 32px;
+        right: 0px;
+        left: 54px
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.first>div :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    section.first>div :nth-child(2) {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .second .secimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .first .secimg>div :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .first .secimg>div :nth-child(2) {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .second .secimg img {
+        width: 370px;
+    }
+
+    .third .secimg img {
+        width: 430px;
+        padding-top: 50px;
+
+    }
+
+    .third .secimg video {
+        width: 260px;
+        top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 959px) {
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-buttons .btn-red {
+        padding: 13px 15px 13px 15px;
+    }
+
+    .faq>div {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .faqbox {
+        width: 100%;
+    }
+
+    .faq .faqbox {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    .faq .faqbox svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .faq {
+        padding: 25px;
+    }
+
+    footer {
+        margin: 0;
+        padding: 34px 23px 34px 23px;
+    }
+}
