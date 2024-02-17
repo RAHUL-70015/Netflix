@@ -450,6 +450,7 @@ footer>div a {
     .hero-buttons {
         display: flex;
         flex-direction: column;
+        width: 90vw;
     }
 
     .hero-buttons .btn-red {
